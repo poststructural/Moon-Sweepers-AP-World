@@ -2,6 +2,16 @@
 Moon Sweepers/
 BepInEx/
 
+# Runtime bridge
+bridge/
+
+# Generated seeds, logs, screenshots and build output
+test/
+research/api_dump.txt
+research/screen*.png
+plugin/**/bin/
+plugin/**/obj/
+
 # Raw extracted binaries — regenerate with tools/moon_textassets.py
 research/textassets/*.bin
 research/*.npy

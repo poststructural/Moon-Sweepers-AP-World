@@ -1,0 +1,16 @@
+name: PlayerName
+description: Moon Sweepers Archipelago template.
+
+game: Moon Sweepers
+Moon Sweepers:
+  # all: every one of the 163,842 sectors (the max seed).
+  # sample: every Nth sector, set by sector_sample.
+  sector_checks: sample
+  sector_sample: 10
+
+  flag_checks: true
+  site_checks: true
+  achievement_checks: true
+
+  # Clean this many sectors to finish.
+  goal_sectors: 500

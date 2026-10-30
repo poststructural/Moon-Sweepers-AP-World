@@ -29,6 +29,8 @@ The maximum seed is **164,159 locations**:
 Clean the configured number of sectors (default 500). For a normal playable seed use `sector_checks: sample`; for
 the record-setting seed use `sector_checks: all`.
 
+`money_multiplier` scales every money item (x1 to x100) for faster early upgrades.
+
 ## Setup
 
 See [the setup guide](setup_en.md).

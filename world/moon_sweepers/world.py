@@ -69,6 +69,7 @@ class MoonSweepersWorld(World):
             "slot_data_version": 1,
             "sector_count": data.SECTOR_COUNT,
             "goal_sectors": self.options.goal_sectors.value,
+            "money_multiplier": self.options.money_multiplier.value,
             "sector_checks": self.options.sector_checks.current_key,
             "sector_sample": self.options.sector_sample.value,
             "flag_checks": bool(self.options.flag_checks),

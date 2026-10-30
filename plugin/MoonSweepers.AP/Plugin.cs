@@ -178,8 +178,9 @@ namespace MoonSweepers.AP
         {
             try
             {
-                world.DevAddMoney(player, ToDecimal(amount));
-                Log2.LogInfo($"MOONAP money +{amount} -> {player}");
+                int scaled = amount * Math.Max(1, Slot.MoneyMultiplier);
+                world.DevAddMoney(player, ToDecimal(scaled));
+                Log2.LogInfo($"MOONAP money +{scaled} -> {player}");
             }
             catch (Exception e)
             {
@@ -592,6 +593,7 @@ namespace MoonSweepers.AP
     internal sealed class SlotData
     {
         public int GoalSectors = 500;
+        public int MoneyMultiplier = 1;
         public readonly Dictionary<string, List<string>> ItemGrants = new();
         public readonly Dictionary<string, string> PurchaseLocations = new();
         public readonly Dictionary<string, int> MoneyItems = new();
@@ -604,6 +606,8 @@ namespace MoonSweepers.AP
 
             if (root.TryGetProperty("goal_sectors", out var goal))
                 data.GoalSectors = goal.GetInt32();
+            if (root.TryGetProperty("money_multiplier", out var multiplier))
+                data.MoneyMultiplier = Math.Max(1, multiplier.GetInt32());
 
             if (root.TryGetProperty("item_grants", out var grants) && grants.ValueKind == JsonValueKind.Object)
             {

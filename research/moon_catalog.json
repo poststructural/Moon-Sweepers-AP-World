@@ -1,0 +1,1061 @@
+{
+ "game": "Moon Sweepers",
+ "build": {
+  "unity": "6000.6.0f1",
+  "il2cpp_metadata": 108,
+  "namespace": "MoonCleaners"
+ },
+ "counts": {
+  "sectors": 163842,
+  "regions_l6": 40962,
+  "sites": 26,
+  "flags": 195,
+  "achievements": 33
+ },
+ "region_grid": {
+  "L0": {
+   "level": 0,
+   "count": 12,
+   "bytes": 160
+  },
+  "L1": {
+   "level": 1,
+   "count": 42,
+   "bytes": 520
+  },
+  "L2": {
+   "level": 2,
+   "count": 162,
+   "bytes": 1960
+  },
+  "L3": {
+   "level": 3,
+   "count": 642,
+   "bytes": 7720
+  },
+  "L4": {
+   "level": 4,
+   "count": 2562,
+   "bytes": 30760
+  },
+  "L5": {
+   "level": 5,
+   "count": 10242,
+   "bytes": 122920
+  },
+  "L6": {
+   "level": 6,
+   "count": 40962,
+   "bytes": 491560
+  },
+  "L7": {
+   "level": 7,
+   "count": 163842,
+   "bytes": 1966120
+  }
+ },
+ "tools": [
+  "Toothbrush",
+  "Hand brush",
+  "Nail brush",
+  "Detail brush",
+  "Angled edge brush",
+  "Household broom",
+  "Wide broom",
+  "Extra wide broom",
+  "Telescopic brush",
+  "Rotary brush",
+  "Hand vacuum",
+  "Backpack vacuum"
+ ],
+ "vehicles": [
+  "Push sweeper",
+  "Ride-on sweeper",
+  "Crew transport van",
+  "Lunar sweeper",
+  "Mega vacuum rover"
+ ],
+ "vehicle_upgrades": [
+  "Speed",
+  "Hopper",
+  "Boost",
+  "Cruise control",
+  "Suction",
+  "Lights"
+ ],
+ "achievements": [
+  "ACH_BUILD_FIRST",
+  "ACH_CONVEYOR_LOOP",
+  "ACH_CONVEYOR_TO_DEPOT",
+  "ACH_DEPOSITS_100",
+  "ACH_DEPOSITS_1000",
+  "ACH_DEPOSITS_10000",
+  "ACH_DUST_10000KG",
+  "ACH_DUST_1000KG",
+  "ACH_DUST_100KG",
+  "ACH_DUST_10KG",
+  "ACH_EARN_1000",
+  "ACH_EARN_10000",
+  "ACH_EARN_100000",
+  "ACH_EARN_1000000",
+  "ACH_FIRST_DEPOSIT",
+  "ACH_FIRST_LAUNCH",
+  "ACH_FIRST_REGION",
+  "ACH_FIRST_SWEEP",
+  "ACH_FIRST_VEHICLE",
+  "ACH_MOON_CLEAN_1",
+  "ACH_MOON_CLEAN_10",
+  "ACH_MOON_CLEAN_100",
+  "ACH_MOON_CLEAN_50",
+  "ACH_PLAY_WITH_A_FRIEND",
+  "ACH_SECTIONS_100",
+  "ACH_SECTIONS_1000",
+  "ACH_SECTIONS_10000",
+  "ACH_SPEND_10000",
+  "ACH_SPEND_100000",
+  "ACH_SPEND_1000000",
+  "ACH_TEN_LAUNCHES",
+  "ACH_TEN_REGIONS",
+  "ACH_UPGRADE_FIRST_BRUSH"
+ ],
+ "sites": [
+  {
+   "code": "luna-2",
+   "name": "Luna 2",
+   "kind": "impact",
+   "nation": "USSR"
+  },
+  {
+   "code": "ranger-7",
+   "name": "Ranger 7",
+   "kind": "impact",
+   "nation": "USA"
+  },
+  {
+   "code": "luna-9",
+   "name": "Luna 9",
+   "kind": "landing",
+   "nation": "USSR"
+  },
+  {
+   "code": "surveyor-1",
+   "name": "Surveyor 1",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "apollo-11",
+   "name": "Apollo 11",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "apollo-12",
+   "name": "Apollo 12",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "apollo-14",
+   "name": "Apollo 14",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "apollo-15",
+   "name": "Apollo 15",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "apollo-16",
+   "name": "Apollo 16",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "apollo-17",
+   "name": "Apollo 17",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "lunokhod-1",
+   "name": "Lunokhod 1",
+   "kind": "rover",
+   "nation": "USSR"
+  },
+  {
+   "code": "lunokhod-2",
+   "name": "Lunokhod 2",
+   "kind": "rover",
+   "nation": "USSR"
+  },
+  {
+   "code": "change-3",
+   "name": "Chang'e 3 and Yutu",
+   "kind": "rover",
+   "nation": "China"
+  },
+  {
+   "code": "change-4",
+   "name": "Chang'e 4 and Yutu-2",
+   "kind": "rover",
+   "nation": "China"
+  },
+  {
+   "code": "change-5",
+   "name": "Chang'e 5",
+   "kind": "landing",
+   "nation": "China"
+  },
+  {
+   "code": "change-6",
+   "name": "Chang'e 6",
+   "kind": "landing",
+   "nation": "China"
+  },
+  {
+   "code": "beresheet",
+   "name": "Beresheet",
+   "kind": "crash",
+   "nation": "Israel"
+  },
+  {
+   "code": "vikram-2",
+   "name": "Vikram (Chandrayaan-2)",
+   "kind": "crash",
+   "nation": "India"
+  },
+  {
+   "code": "hakuto-r",
+   "name": "Hakuto-R Mission 1",
+   "kind": "crash",
+   "nation": "Japan"
+  },
+  {
+   "code": "luna-25",
+   "name": "Luna 25",
+   "kind": "crash",
+   "nation": "Russia"
+  },
+  {
+   "code": "vikram-3",
+   "name": "Vikram and Pragyan",
+   "kind": "rover",
+   "nation": "India"
+  },
+  {
+   "code": "slim",
+   "name": "SLIM",
+   "kind": "landing",
+   "nation": "Japan"
+  },
+  {
+   "code": "odysseus",
+   "name": "Odysseus (IM-1)",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "blue-ghost",
+   "name": "Blue Ghost Mission 1",
+   "kind": "landing",
+   "nation": "USA"
+  },
+  {
+   "code": "lcross",
+   "name": "LCROSS",
+   "kind": "impact",
+   "nation": "USA"
+  },
+  {
+   "code": "grail",
+   "name": "Ebb and Flow (GRAIL)",
+   "kind": "impact",
+   "nation": "USA"
+  }
+ ],
+ "flags": [
+  {
+   "code": "AD",
+   "name": "Andorra"
+  },
+  {
+   "code": "AE",
+   "name": "United Arab Emirates"
+  },
+  {
+   "code": "AF",
+   "name": "Afghanistan"
+  },
+  {
+   "code": "AG",
+   "name": "Antigua and Barbuda"
+  },
+  {
+   "code": "AL",
+   "name": "Albania"
+  },
+  {
+   "code": "AM",
+   "name": "Armenia"
+  },
+  {
+   "code": "AO",
+   "name": "Angola"
+  },
+  {
+   "code": "AR",
+   "name": "Argentina"
+  },
+  {
+   "code": "AT",
+   "name": "Austria"
+  },
+  {
+   "code": "AU",
+   "name": "Australia"
+  },
+  {
+   "code": "AZ",
+   "name": "Azerbaijan"
+  },
+  {
+   "code": "BA",
+   "name": "Bosnia and Herzegovina"
+  },
+  {
+   "code": "BB",
+   "name": "Barbados"
+  },
+  {
+   "code": "BD",
+   "name": "Bangladesh"
+  },
+  {
+   "code": "BE",
+   "name": "Belgium"
+  },
+  {
+   "code": "BF",
+   "name": "Burkina Faso"
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaria"
+  },
+  {
+   "code": "BH",
+   "name": "Bahrain"
+  },
+  {
+   "code": "BI",
+   "name": "Burundi"
+  },
+  {
+   "code": "BJ",
+   "name": "Benin"
+  },
+  {
+   "code": "BN",
+   "name": "Brunei"
+  },
+  {
+   "code": "BO",
+   "name": "Bolivia"
+  },
+  {
+   "code": "BR",
+   "name": "Brazil"
+  },
+  {
+   "code": "BS",
+   "name": "The Bahamas"
+  },
+  {
+   "code": "BT",
+   "name": "Bhutan"
+  },
+  {
+   "code": "BW",
+   "name": "Botswana"
+  },
+  {
+   "code": "BY",
+   "name": "Belarus"
+  },
+  {
+   "code": "BZ",
+   "name": "Belize"
+  },
+  {
+   "code": "CA",
+   "name": "Canada"
+  },
+  {
+   "code": "CD",
+   "name": "DR Congo"
+  },
+  {
+   "code": "CF",
+   "name": "Central African Republic"
+  },
+  {
+   "code": "CG",
+   "name": "Republic of the Congo"
+  },
+  {
+   "code": "CH",
+   "name": "Switzerland"
+  },
+  {
+   "code": "CI",
+   "name": "Côte d'Ivoire"
+  },
+  {
+   "code": "CL",
+   "name": "Chile"
+  },
+  {
+   "code": "CM",
+   "name": "Cameroon"
+  },
+  {
+   "code": "CN",
+   "name": "China"
+  },
+  {
+   "code": "CO",
+   "name": "Colombia"
+  },
+  {
+   "code": "CR",
+   "name": "Costa Rica"
+  },
+  {
+   "code": "CU",
+   "name": "Cuba"
+  },
+  {
+   "code": "CV",
+   "name": "Cabo Verde"
+  },
+  {
+   "code": "CY",
+   "name": "Cyprus"
+  },
+  {
+   "code": "CZ",
+   "name": "Czechia"
+  },
+  {
+   "code": "DE",
+   "name": "Germany"
+  },
+  {
+   "code": "DJ",
+   "name": "Djibouti"
+  },
+  {
+   "code": "DK",
+   "name": "Denmark"
+  },
+  {
+   "code": "DM",
+   "name": "Dominica"
+  },
+  {
+   "code": "DO",
+   "name": "Dominican Republic"
+  },
+  {
+   "code": "DZ",
+   "name": "Algeria"
+  },
+  {
+   "code": "EC",
+   "name": "Ecuador"
+  },
+  {
+   "code": "EE",
+   "name": "Estonia"
+  },
+  {
+   "code": "EG",
+   "name": "Egypt"
+  },
+  {
+   "code": "ER",
+   "name": "Eritrea"
+  },
+  {
+   "code": "ES",
+   "name": "Spain"
+  },
+  {
+   "code": "ET",
+   "name": "Ethiopia"
+  },
+  {
+   "code": "FI",
+   "name": "Finland"
+  },
+  {
+   "code": "FJ",
+   "name": "Fiji"
+  },
+  {
+   "code": "FM",
+   "name": "Micronesia"
+  },
+  {
+   "code": "FR",
+   "name": "France"
+  },
+  {
+   "code": "GA",
+   "name": "Gabon"
+  },
+  {
+   "code": "GB",
+   "name": "United Kingdom"
+  },
+  {
+   "code": "GD",
+   "name": "Grenada"
+  },
+  {
+   "code": "GE",
+   "name": "Georgia"
+  },
+  {
+   "code": "GH",
+   "name": "Ghana"
+  },
+  {
+   "code": "GM",
+   "name": "The Gambia"
+  },
+  {
+   "code": "GN",
+   "name": "Guinea"
+  },
+  {
+   "code": "GQ",
+   "name": "Equatorial Guinea"
+  },
+  {
+   "code": "GR",
+   "name": "Greece"
+  },
+  {
+   "code": "GT",
+   "name": "Guatemala"
+  },
+  {
+   "code": "GW",
+   "name": "Guinea-Bissau"
+  },
+  {
+   "code": "GY",
+   "name": "Guyana"
+  },
+  {
+   "code": "HN",
+   "name": "Honduras"
+  },
+  {
+   "code": "HR",
+   "name": "Croatia"
+  },
+  {
+   "code": "HT",
+   "name": "Haiti"
+  },
+  {
+   "code": "HU",
+   "name": "Hungary"
+  },
+  {
+   "code": "ID",
+   "name": "Indonesia"
+  },
+  {
+   "code": "IE",
+   "name": "Ireland"
+  },
+  {
+   "code": "IL",
+   "name": "Israel"
+  },
+  {
+   "code": "IN",
+   "name": "India"
+  },
+  {
+   "code": "IQ",
+   "name": "Iraq"
+  },
+  {
+   "code": "IR",
+   "name": "Iran"
+  },
+  {
+   "code": "IS",
+   "name": "Iceland"
+  },
+  {
+   "code": "IT",
+   "name": "Italy"
+  },
+  {
+   "code": "JM",
+   "name": "Jamaica"
+  },
+  {
+   "code": "JO",
+   "name": "Jordan"
+  },
+  {
+   "code": "JP",
+   "name": "Japan"
+  },
+  {
+   "code": "KE",
+   "name": "Kenya"
+  },
+  {
+   "code": "KG",
+   "name": "Kyrgyzstan"
+  },
+  {
+   "code": "KH",
+   "name": "Cambodia"
+  },
+  {
+   "code": "KI",
+   "name": "Kiribati"
+  },
+  {
+   "code": "KM",
+   "name": "Comoros"
+  },
+  {
+   "code": "KN",
+   "name": "Saint Kitts and Nevis"
+  },
+  {
+   "code": "KP",
+   "name": "North Korea"
+  },
+  {
+   "code": "KR",
+   "name": "South Korea"
+  },
+  {
+   "code": "KW",
+   "name": "Kuwait"
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakhstan"
+  },
+  {
+   "code": "LA",
+   "name": "Laos"
+  },
+  {
+   "code": "LB",
+   "name": "Lebanon"
+  },
+  {
+   "code": "LC",
+   "name": "Saint Lucia"
+  },
+  {
+   "code": "LI",
+   "name": "Liechtenstein"
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka"
+  },
+  {
+   "code": "LR",
+   "name": "Liberia"
+  },
+  {
+   "code": "LS",
+   "name": "Lesotho"
+  },
+  {
+   "code": "LT",
+   "name": "Lithuania"
+  },
+  {
+   "code": "LU",
+   "name": "Luxembourg"
+  },
+  {
+   "code": "LV",
+   "name": "Latvia"
+  },
+  {
+   "code": "LY",
+   "name": "Libya"
+  },
+  {
+   "code": "MA",
+   "name": "Morocco"
+  },
+  {
+   "code": "MC",
+   "name": "Monaco"
+  },
+  {
+   "code": "MD",
+   "name": "Moldova"
+  },
+  {
+   "code": "ME",
+   "name": "Montenegro"
+  },
+  {
+   "code": "MG",
+   "name": "Madagascar"
+  },
+  {
+   "code": "MH",
+   "name": "Marshall Islands"
+  },
+  {
+   "code": "MK",
+   "name": "North Macedonia"
+  },
+  {
+   "code": "ML",
+   "name": "Mali"
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar"
+  },
+  {
+   "code": "MN",
+   "name": "Mongolia"
+  },
+  {
+   "code": "MR",
+   "name": "Mauritania"
+  },
+  {
+   "code": "MT",
+   "name": "Malta"
+  },
+  {
+   "code": "MU",
+   "name": "Mauritius"
+  },
+  {
+   "code": "MV",
+   "name": "Maldives"
+  },
+  {
+   "code": "MW",
+   "name": "Malawi"
+  },
+  {
+   "code": "MX",
+   "name": "Mexico"
+  },
+  {
+   "code": "MY",
+   "name": "Malaysia"
+  },
+  {
+   "code": "MZ",
+   "name": "Mozambique"
+  },
+  {
+   "code": "NA",
+   "name": "Namibia"
+  },
+  {
+   "code": "NE",
+   "name": "Niger"
+  },
+  {
+   "code": "NG",
+   "name": "Nigeria"
+  },
+  {
+   "code": "NI",
+   "name": "Nicaragua"
+  },
+  {
+   "code": "NL",
+   "name": "Netherlands"
+  },
+  {
+   "code": "NO",
+   "name": "Norway"
+  },
+  {
+   "code": "NP",
+   "name": "Nepal"
+  },
+  {
+   "code": "NR",
+   "name": "Nauru"
+  },
+  {
+   "code": "NZ",
+   "name": "New Zealand"
+  },
+  {
+   "code": "OM",
+   "name": "Oman"
+  },
+  {
+   "code": "PA",
+   "name": "Panama"
+  },
+  {
+   "code": "PE",
+   "name": "Peru"
+  },
+  {
+   "code": "PG",
+   "name": "Papua New Guinea"
+  },
+  {
+   "code": "PH",
+   "name": "Philippines"
+  },
+  {
+   "code": "PK",
+   "name": "Pakistan"
+  },
+  {
+   "code": "PL",
+   "name": "Poland"
+  },
+  {
+   "code": "PS",
+   "name": "Palestine"
+  },
+  {
+   "code": "PT",
+   "name": "Portugal"
+  },
+  {
+   "code": "PW",
+   "name": "Palau"
+  },
+  {
+   "code": "PY",
+   "name": "Paraguay"
+  },
+  {
+   "code": "QA",
+   "name": "Qatar"
+  },
+  {
+   "code": "RO",
+   "name": "Romania"
+  },
+  {
+   "code": "RS",
+   "name": "Serbia"
+  },
+  {
+   "code": "RU",
+   "name": "Russia"
+  },
+  {
+   "code": "RW",
+   "name": "Rwanda"
+  },
+  {
+   "code": "SA",
+   "name": "Saudi Arabia"
+  },
+  {
+   "code": "SB",
+   "name": "Solomon Islands"
+  },
+  {
+   "code": "SC",
+   "name": "Seychelles"
+  },
+  {
+   "code": "SD",
+   "name": "Sudan"
+  },
+  {
+   "code": "SE",
+   "name": "Sweden"
+  },
+  {
+   "code": "SG",
+   "name": "Singapore"
+  },
+  {
+   "code": "SI",
+   "name": "Slovenia"
+  },
+  {
+   "code": "SK",
+   "name": "Slovakia"
+  },
+  {
+   "code": "SL",
+   "name": "Sierra Leone"
+  },
+  {
+   "code": "SM",
+   "name": "San Marino"
+  },
+  {
+   "code": "SN",
+   "name": "Senegal"
+  },
+  {
+   "code": "SO",
+   "name": "Somalia"
+  },
+  {
+   "code": "SR",
+   "name": "Suriname"
+  },
+  {
+   "code": "SS",
+   "name": "South Sudan"
+  },
+  {
+   "code": "ST",
+   "name": "São Tomé and Príncipe"
+  },
+  {
+   "code": "SV",
+   "name": "El Salvador"
+  },
+  {
+   "code": "SY",
+   "name": "Syria"
+  },
+  {
+   "code": "SZ",
+   "name": "Eswatini"
+  },
+  {
+   "code": "TD",
+   "name": "Chad"
+  },
+  {
+   "code": "TG",
+   "name": "Togo"
+  },
+  {
+   "code": "TH",
+   "name": "Thailand"
+  },
+  {
+   "code": "TJ",
+   "name": "Tajikistan"
+  },
+  {
+   "code": "TL",
+   "name": "Timor-Leste"
+  },
+  {
+   "code": "TM",
+   "name": "Turkmenistan"
+  },
+  {
+   "code": "TN",
+   "name": "Tunisia"
+  },
+  {
+   "code": "TO",
+   "name": "Tonga"
+  },
+  {
+   "code": "TR",
+   "name": "Türkiye"
+  },
+  {
+   "code": "TT",
+   "name": "Trinidad and Tobago"
+  },
+  {
+   "code": "TV",
+   "name": "Tuvalu"
+  },
+  {
+   "code": "TZ",
+   "name": "Tanzania"
+  },
+  {
+   "code": "UA",
+   "name": "Ukraine"
+  },
+  {
+   "code": "UG",
+   "name": "Uganda"
+  },
+  {
+   "code": "US",
+   "name": "United States"
+  },
+  {
+   "code": "UY",
+   "name": "Uruguay"
+  },
+  {
+   "code": "UZ",
+   "name": "Uzbekistan"
+  },
+  {
+   "code": "VA",
+   "name": "Vatican City"
+  },
+  {
+   "code": "VC",
+   "name": "Saint Vincent and the Grenadines"
+  },
+  {
+   "code": "VE",
+   "name": "Venezuela"
+  },
+  {
+   "code": "VN",
+   "name": "Vietnam"
+  },
+  {
+   "code": "VU",
+   "name": "Vanuatu"
+  },
+  {
+   "code": "WS",
+   "name": "Samoa"
+  },
+  {
+   "code": "YE",
+   "name": "Yemen"
+  },
+  {
+   "code": "ZA",
+   "name": "South Africa"
+  },
+  {
+   "code": "ZM",
+   "name": "Zambia"
+  },
+  {
+   "code": "ZW",
+   "name": "Zimbabwe"
+  }
+ ]
+}

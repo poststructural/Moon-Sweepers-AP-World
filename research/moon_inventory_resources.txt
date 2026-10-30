@@ -1,0 +1,51 @@
+
+===== resources.assets
+objects 14059
+types {'GameObject': 2809, 'Transform': 2809, 'MeshRenderer': 1978, 'MeshFilter': 1978, 'Mesh': 1834, 'Texture2D': 866, 'Material': 448, 'MeshCollider': 366, 'Sprite': 347, 'MonoBehaviour': 269, 'BoxCollider': 186, 'TextAsset': 81, 'Shader': 27, 'SphereCollider': 20, 'Font': 19, 'AudioClip': 6, 'Rigidbody': 6, 'SkinnedMeshRenderer': 6, 'CapsuleCollider': 2, 'VideoClip': 1, 'Light': 1}
+monobehaviours with name 201 no name 68
+distinct scripts with named instances 1
+
+## None  instances=201 unique_names=201
+    ConveyorKit
+    Default Style Sheet
+    DepotBuildDefinition
+    LiberationSans SDF
+    LiberationSans SDF - Fallback
+    Outfit Bold SDF
+    Outfit SDF
+    TMP Settings
+    battery_bank
+    canister_rack
+    capsule_catcher
+    cargo_locker
+    catwalk_bridge_8m
+    catwalk_corner
+    catwalk_cross
+    catwalk_curve_90
+    catwalk_platform_3x3
+    catwalk_ramp_half
+    catwalk_stairs_full
+    catwalk_stairs_half
+    catwalk_stairs_quarter_turn
+    catwalk_stairs_spiral
+    catwalk_stairs_wide_half
+    catwalk_straight_2m
+    catwalk_straight_4m
+    catwalk_support_full
+    catwalk_support_half
+    catwalk_support_wide_full
+    catwalk_support_wide_half
+    catwalk_t_junction
+    catwalk_wide_4m
+    catwalk_wide_end
+    compact_return_stairs
+    concrete_hex_foundation_1m
+    concrete_hex_foundation_2m
+    concrete_hex_foundation_3m
+    concrete_hex_ramp_0_1
+    concrete_hex_ramp_0_2
+    concrete_hex_ramp_0_3
+    concrete_hex_ramp_1_2
+    ... 161 more
+
+container entries 0

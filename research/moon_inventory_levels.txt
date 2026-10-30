@@ -1,0 +1,16 @@
+
+===== level1
+objects 1368
+types {'GameObject': 386, 'Transform': 385, 'MeshRenderer': 151, 'MeshFilter': 150, 'MonoBehaviour': 146, 'Light': 104, 'BoxCollider': 25, 'ReflectionProbe': 6, 'Rigidbody': 3, 'MeshCollider': 3, 'Camera': 1, 'AudioListener': 1, 'Animator': 1, 'RenderSettings': 1, 'CapsuleCollider': 1, 'SkinnedMeshRenderer': 1, 'LightmapSettings': 1, 'NavMeshSettings': 1, 'RectTransform': 1}
+monobehaviours with name 0 no name 146
+distinct scripts with named instances 0
+
+container entries 0
+
+===== level0
+objects 1032
+types {'GameObject': 319, 'Transform': 319, 'MeshRenderer': 188, 'MeshFilter': 188, 'MonoBehaviour': 9, 'Light': 2, 'Camera': 1, 'AudioListener': 1, 'Animator': 1, 'RenderSettings': 1, 'SkinnedMeshRenderer': 1, 'LightmapSettings': 1, 'NavMeshSettings': 1}
+monobehaviours with name 0 no name 9
+distinct scripts with named instances 0
+
+container entries 0

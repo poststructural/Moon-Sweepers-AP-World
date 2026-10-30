@@ -1,0 +1,13 @@
+# Game install / copied build (never commit)
+Moon Sweepers/
+BepInEx/
+
+# Raw extracted binaries — regenerate with tools/moon_textassets.py
+research/textassets/*.bin
+research/*.npy
+
+# Local downloads and logs
+tools/downloads/
+*.log
+__pycache__/
+*.pyc

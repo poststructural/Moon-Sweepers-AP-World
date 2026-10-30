@@ -1,0 +1,22 @@
+
+===== sharedassets0.assets
+objects 551
+types {'AudioClip': 169, 'Mesh': 149, 'Material': 116, 'Texture2D': 27, 'GameObject': 19, 'Transform': 19, 'MonoBehaviour': 16, 'MeshRenderer': 11, 'MeshFilter': 11, 'Shader': 6, 'Sprite': 4, 'PreloadData': 1, 'AnimationClip': 1, 'Cubemap': 1, 'Avatar': 1}
+monobehaviours with name 12 no name 4
+distinct scripts with named instances 1
+
+## None  instances=12 unique_names=12
+    Bloom
+    ColorAdjustments
+    DefaultAudio
+    MoonCinematicProfile
+    SplitToning
+    Tonemapping
+    Vignette
+    WhiteBalance
+    extra_wide_broom
+    hand_brush
+    household_broom
+    wide_broom
+
+container entries 0

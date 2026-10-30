@@ -1,5 +1,7 @@
 # Installing the Moon Sweepers Archipelago mod
 
+> **AI disclosure:** AI was used to help develop this Archipelago mod.
+
 This guide covers the game side, the Archipelago side and the bridge between them. It is written for the current
 Steam build (**Unity 6000.6.0f1, IL2CPP metadata v108**). If Moon Sweepers updates, re-check the BepInEx patcher
 first; the game has shipped metadata changes before.
@@ -14,7 +16,7 @@ first; the game has shipped metadata changes before.
 | BepInEx **6.0.0-be.791**, Unity.IL2CPP **win-x64** | <https://builds.bepinex.dev/projects/bepinex_be/791> |
 | **MoonSweepers.ModEngine** patcher | <https://www.nexusmods.com/moonsweepers/mods/9> |
 | `MoonSweepers.AP.dll` | this repo, `release/MoonSweepers.AP.dll` (or build it) |
-| Archipelago 0.6.9+ | the client and `worlds/` folder |
+| Archipelago 0.6.8+ | the client and `worlds/` folder |
 | Python 3.12 | only needed if you run the client from source |
 
 > **Back up your save first.** Saves live in

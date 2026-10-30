@@ -27,7 +27,7 @@ the Python client and the launcher integration all work end to end.
 - Moon Sweepers (Steam app 5335510), current Unity 6000.6 / IL2CPP metadata v108 build.
 - BepInEx **6.0.0-be.791**, Unity.IL2CPP **win-x64**.
 - [MoonSweepers.ModEngine patcher](https://www.nexusmods.com/moonsweepers/mods/9).
-- Archipelago 0.6.9+.
+- Archipelago 0.6.8+.
 
 ## Install (short)
 

@@ -1,5 +1,7 @@
 # Moon Sweepers — Archipelago world
 
+> **AI disclosure:** AI was used to help develop this Archipelago mod.
+
 An Archipelago multiworld for **Moon Sweepers** (DragDrop Games, Steam app 5335510). Every one of the Moon's
 **163,842 sectors** can be a check, along with 195 flags, 26 lunar sites, 33 achievements and 63 shop purchases.
 The maximal seed has **164,159 locations**; money, tools, containers, upgrade-tree nodes and vehicles are shuffled
